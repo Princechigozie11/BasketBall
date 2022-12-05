@@ -18,14 +18,15 @@ body {
 }
 .display_wrapper {
   background-color: #333;
-  width: 350px;
-  height: 250px;
+  width: 300px;
   border: 2px solid #fff;
   border-radius: 5px;
+}
+.display {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  position: relative;
+  margin-top: 2rem;
 }
 .displayHeading {
   color: #fff;
@@ -58,22 +59,11 @@ body {
   color: #fff;
 }
 .newBtn {
-  position: absolute;
-  top: 68%;
-  left: 46.6%;
+  margin: 1rem 0 1rem 7rem;
   padding: 5px 10px;
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
 }
 @media screen and (max-width: 480px) {
-  .display_wrapper {
-    width: 300px;
-    margin: 0;
-  }
-  .newBtn {
-    position: absolute;
-    top: 68%;
-    left: 40%;
-  }
 }
